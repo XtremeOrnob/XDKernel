@@ -849,7 +849,6 @@ config RTMV20
 	help
 	  Say Y here if you want to support Ricktek RTMV2.0 device.
 
-
 config FORCE_FAST_CHARGE
 	bool "Force faster charge rate for USB"
 	default y
