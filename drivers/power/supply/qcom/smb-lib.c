@@ -44,6 +44,10 @@
 				__func__, ##__VA_ARGS__);	\
 	} while (0)
 
+
+bool skip_thermal = false;
+module_param(skip_thermal, bool, 0644);
+
 static bool off_charge_flag;
 static void smblib_wireless_set_enable(struct smb_charger *chg, int enable);
 
