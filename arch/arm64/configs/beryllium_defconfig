@@ -731,3 +731,8 @@ CONFIG_IP_NF_MANGLE=y
 # USB Fast Charge
 #
 CONFIG_FORCE_FAST_CHARGE=y
+
+#
+# Frandom
+#
+CONFIG_FRANDOM=y
