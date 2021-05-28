@@ -95,7 +95,6 @@ struct clk_osm {
 	u32 prev_cycle_counter;
 	u32 max_core_count;
 	u32 mx_turbo_freq;
-	struct mutex update_lock;
 	ktime_t last_update;
 	struct mutex update_lock;
 	cpumask_t related_cpus;
